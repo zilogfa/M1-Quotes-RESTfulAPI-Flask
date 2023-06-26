@@ -1,0 +1,28 @@
+{% include "header.html" %}
+
+<!--{% if text%}<h1>{{text}}</h1>{%endif%}-->
+<!--{% if error==True %}<h1>Quote Not Found!</h1>{%endif%}-->
+
+<!--    </div>-->
+
+<!--<h1>Enter Quote ID to Delete</h1>-->
+<h1>{{text}}</h1>
+<div>
+    <p>
+        <form action="/delete" method="POST">
+            <label>Enter Quote ID</label>
+            <input type="text" name="quoteId">
+            <button type="submit">submit</button>
+
+        </form>
+    </p>
+
+</div>
+
+<br>
+<div>
+    <p><a href="/"><button>Home</button></a></p>
+</div>
+
+
+{% include "footer.html" %}

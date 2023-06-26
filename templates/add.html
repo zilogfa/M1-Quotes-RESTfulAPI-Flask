@@ -1,0 +1,17 @@
+{% include "header.html" %}
+
+<div>
+    <form action="/add" method="POST">
+
+        <input type="text" name="author" placeholder="Enter Author Name">
+        <input type="text" name="quote" placeholder="Enter Quote">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<br>
+<div>
+    <p><a href="/"><button>Home</button></a></p>
+</div>
+
+{% include "footer.html" %}

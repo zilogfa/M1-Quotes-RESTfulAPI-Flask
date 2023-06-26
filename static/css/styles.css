@@ -1,0 +1,151 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EAEAEA;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h3 {
+color:gray;
+}
+
+.container {
+padding: 2% 15%;
+}
+
+/*-- HEADER --*/
+
+.nav-div {
+padding: 0 8%;
+}
+
+.header-bg {
+background-image: url('../images/header-bg.jpg');
+opacity: 1;
+height: 500px;
+background-color:#000;
+}
+
+
+.main-header{
+padding: 8%;
+text-align: center;
+color: #fff;
+
+}
+
+.header-title {
+font-size: 5rem;
+font-weight: 900;
+
+}
+
+.header-subtitle {
+font-size: 2rem;
+font-weight: 500;
+}
+
+
+@media (max-width: 800px){
+
+    .main-header{
+    padding: 16%;
+    text-align: center;
+    color: #fff;
+    }
+
+    .header-title {
+    font-size: 3.2rem;
+    font-weight: 900;
+
+    }
+
+    .header-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    }
+}
+
+
+/* ADD btn */
+
+.add-btn {
+background-color: #BED1BC;
+}
+
+.add-btn:hover {
+background-color: #284958;
+}
+
+.btn-div {
+padding: 2% 0;
+}
+
+/*-- POSTS --*/
+
+.star-color {
+color: #A37A68;
+}
+
+.post-section{
+padding-top: 2%;
+padding-bottom: 5%
+}
+
+.main-card {
+margin-top: 1%;
+}
+
+.post-div {
+padding: 0 10%;
+}
+
+.b-title {
+font-weight: 700;
+}
+
+/* FOOTER */
+
+footer {
+margin-top: auto;
+background-color:#DCD2C6;
+padding: 3%;
+}
+
+.footer-text {
+text-align: center;
+color: #fff;
+}
+
+
+/* ADD */
+
+.add-con {
+padding: 2% 20%;
+}
+
+.add-card {
+background-color: #E4D4C8;
+padding: 1% 5%
+}
+
+.add-form {
+padding-top: 2%;
+}
+
+.btn-add {
+padding-top: 2%;
+}
+/* Q Class */
+
+.q-class {
+text-align:center;
+padding: 2% 20%;
+}
+
+
+.q-card {
+margin:2%;
+}
